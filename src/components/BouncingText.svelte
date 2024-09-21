@@ -1,7 +1,7 @@
 <script lang="ts">
     export let value : string
 
-    export let className : string
+    export let className : string = ""
 
     export let offset : number = 0.05
     export let duration : number = 0.5

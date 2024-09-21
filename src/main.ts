@@ -36,7 +36,7 @@ App.registerApp(new Timeline())
 App.registerApp(new Friends())
 
 document.addEventListener("keydown", (ev) => {
-    if (ev.ctrlKey == true && ev.altKey == true && ev.key.toLowerCase() == "d") {
+    if (ev.metaKey == true && ev.shiftKey == true && ev.key.toLowerCase() == "d") {
         Process.spawn(DevTools, <DevToolsOptions> { backgroundColor: "#1a1d1e" })
     }
     if (ev.ctrlKey == true && ev.altKey == true && ev.key.toLowerCase() == "t") {

@@ -16,19 +16,6 @@
 
     window.classes = "about-me-app h-full"
 
-    let randomQuote : string
-
-    onMount(() => {
-        randomQuote = randomElement([
-            'hooray!',
-            'ermmm..... 🤓',
-            'wah wah wahh wah wahh?',
-            'do you think the super saiyan stays on during sex?',
-            'womp womp',
-            'let me run the numbers'
-        ])
-    })
-
     const discordIconUrl = "https://assets-global.website-files.com/6257adef93867e50d84d30e2/636e0a69f118df70ad7828d4_icon_clyde_blurple_RGB.svg"
 
 </script>
@@ -46,8 +33,7 @@
 
 <div class="flex justify-center">
     <div>
-        <p class="pt-2 text-center text-gray-500 text-xs">he/they</p>
-        <p class="text-center text-gray-500 text-xs">'{randomQuote}'</p>
+        <p class="pt-2 text-center text-gray-500 text-xs">software engineer</p>
     </div>
 </div>
 
@@ -55,7 +41,7 @@
 
     <div class="flex justify-center">
         <div class="w-3/4">
-            <p class="text-center">hi, i program things and talk about <a href="https://store.steampowered.com/app/1150690/OMORI/" target="_blank">OMORI</a>.</p>
+            <p class="text-center">hi, i program things and talk about <a href="https://store.steampowered.com/app/1150690/OMORI/" rel="noreferrer" target="_blank">OMORI</a>.</p>
             <p class="text-center">kotlin, c#, and ts developer (in that order)</p>
             <br>
             <p class="text-center">i also like cooking, graphic design, and playing games with my friends.</p>
